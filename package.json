@@ -1,0 +1,33 @@
+{
+  "name": "ean13",
+  "version": "1.0.0",
+  "description": "EAN13 kata",
+  "main": "index.js",
+  "author": "Juanma Orta",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.16.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "jest": "^16.0.2",
+    "webpack": "^1.13.2"
+  },
+  "jest": {
+    "testPathDirs": [
+      "__tests__"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "es6"
+    ]
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
